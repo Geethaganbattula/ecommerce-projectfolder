@@ -1,0 +1,135 @@
+/* === NAVBAR === */
+ul {
+  background-color: #51A8FF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+}
+li {
+  padding: 30px;
+  list-style-type: none;
+  background-color: #51A8FF;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === BACKGROUND === */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('/login..jpg'); /* Replace with your own image if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* === LOGIN TEXT HEADING === */
+.login-text {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000a2;
+}
+
+/* === LOGIN COMPONENT CONTAINER === */
+.login-compo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 950px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* === IMAGE STYLING === */
+.img img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* === FORM STYLING === */
+.login-inner {
+  flex: 1;
+  padding: 40px;
+  background-color: #f3f8fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.login-inner label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login-inner input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+.login-inner input:focus {
+  border-color: #51A8FF;
+  outline: none;
+}
+
+.login-inner button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffc78a;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.login-inner button:hover {
+  background-color: #fdbf70;
+}
+
+/* === SIGNUP BUTTON UNDER FORM === */
+.signup-indication {
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.signup-indication button {
+  background-color: #ffd0a4;
+  border: none;
+  padding: 8px 14px;
+  margin-left: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.signup-indication button:hover {
+  background-color: #fcbf87;
+}
