@@ -92,7 +92,7 @@ Edit
 ![Home Page](screenshots/home.png)
 ![Cart Page](screenshots/cart.png)
 🙋‍♀️ Author
-Geethu Ganbattula
+Geethu Gangabattula
 🎓 Final Year CSE Student (AI & ML)
 📧 [Insert your email or LinkedIn if you'd like]
 
